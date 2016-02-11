@@ -14,6 +14,10 @@ function initializePage() {
 	$('#colorBtn').click(randomizeColors);
 }
 
+$(".details").click(function(e){
+	$.get("/project/2". addProjectDetails);
+});
+
 /*
  * Make an AJAX call to retrieve project details and add it in
  */
